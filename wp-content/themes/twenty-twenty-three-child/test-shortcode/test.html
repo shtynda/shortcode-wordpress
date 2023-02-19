@@ -1,0 +1,133 @@
+<div class="container">
+    <div
+        class="col-12 col-lg-10 col-xl-8 test-widget d-flex flex-column justify-content-between"
+    >
+        <div class="test-content d-flex flex-column col-12">
+            <div class="test-menu">
+                <ul class="menu-nav d-inline-flex">
+                    <li class="menu-iteam">
+                        <img
+                            src="http://www.polanika.space/wp-content/themes/twenty-twenty-three-child/test-shortcode/Vector.png"
+                            alt="#"
+                        />
+                    </li>
+                    <li class="menu-iteam active-iteam">Contact Info</li>
+                    <li class="menu-iteam">Quantity</li>
+                    <li class="menu-iteam">Price</li>
+                    <li class="menu-iteam">Done</li>
+                </ul>
+            </div>
+            <div class="step col-12" id="step-1">
+                <div class="test-title col-12">Contact Info</div>
+                <form
+                    id="form1"
+                    action="#"
+                    class="test-input d-flex flex-column m-0"
+                >
+                    <div class="d-flex align-items-center">
+                        <div class="input-name col-4 col-sm-4 col-md-4">
+                            Name
+                        </div>
+                        <input
+                            class="input-content col-8 col-sm-8 col-md-7"
+                            type="text"
+                            name="name"
+                            id="name"
+                        />
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="input-name col-4 col-sm-4 col-md-4">
+                            Email <sup> required</sup>
+                        </div>
+                        <input
+                            class="input-content col-8 col-sm-8 col-md-7"
+                            type="email"
+                            name="email"
+                            id="email"
+                        />
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="input-name col-4 col-sm-4 col-md-4">
+                            Phone
+                        </div>
+                        <input
+                            class="input-content col-8 col-sm-8 col-md-7"
+                            type="tel"
+                            name="phone"
+                            id="phone"
+                        />
+                    </div>
+                </form>
+            </div>
+            <div class="step" id="step-2">
+                <div class="test-title col-12">Quantity</div>
+                <div class="test-input d-flex flex-column">
+                    <form
+                        action="#"
+                        id="form2"
+                        class="d-flex align-items-center"
+                    >
+                        <div class="input-name col-4 col-sm-4 col-md-4">
+                            Quantity <sup> required</sup>
+                        </div>
+                        <input
+                            class="input-content col-8 col-sm-8 col-md-7"
+                            type="number"
+                            id="quantity"
+                            min="1"
+                            max="1000"
+                        />
+                    </form>
+                </div>
+            </div>
+            <div class="step" id="step-3">
+                <div class="test-title col-12">Price</div>
+                <div class="d-flex flex-column">
+                    <div class="test-price col-12" id="test-price">$10</div>
+                </div>
+            </div>
+            <div class="step" id="step-4">
+                <div class="test-title col-12">Done</div>
+                <div class="d-flex flex-column col-12">
+                    <div class="answer-server" id="answer-server"></div>
+                </div>
+            </div>
+        </div>
+        <div class="test-btns d-flex">
+            <input
+                class="btn-main btn btn-primary me-3"
+                type="submit"
+                id="step1-button"
+                value="Continue"
+                form="form1"
+            />
+
+            <input
+                class="btn-main step2-button btn btn-primary me-3"
+                type="submit"
+                id="step2-button"
+                value="Continue"
+                form="form2"
+            />
+
+            <input
+                class="btn-main send-button btn btn-primary me-3"
+                type="submit"
+                id="send-button"
+                value="Send to Email"
+            />
+            <input
+                class="btn-back btn btn-secondary me-3"
+                type="button"
+                id="back-button"
+                value="&#8592; Back"
+            />
+            <input
+                class="btn-main restart-button btn btn-primary me-3"
+                type="button"
+                id="restart-button"
+                value="Start again &#8594;"
+            />
+        </div>
+    </div>
+</div>
